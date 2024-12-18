@@ -1,6 +1,6 @@
 const HelloWorld = artifacts.require("HelloWorld");
 
-constract("HelloWorld", () => {
+contract("HelloWorld", () => {
     it("HelloWorld Testting", async () => {
         const helloWorld = await HelloWorld.deployed();
         await helloWorld.setName("User Name");
